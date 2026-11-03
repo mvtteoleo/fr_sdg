@@ -6,6 +6,8 @@ Spectral Discontinuous Galerkin.
 
 Both implicit and explicit time integration is available by means of PETSc,
 which handle the backhand for the time stepping and nonlinear solver.
+A note of interest goes for the possibility of using complex step derivative to
+approximate the Jacobian.
 
 The C++ standard of choice is C++23, to manage the dependencies I here use nix,
 the only real dependency.
