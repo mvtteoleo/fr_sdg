@@ -185,5 +185,6 @@ Known limitations:
 
 - 3D is not supported. (true? planned?)
 Roadmap: 
-- Restructure the code in order to be able to handle generic equations of shape $\frac{\partial U}{\partial t} + \nabla \cdot \F(U) = S$
+- Restructure the code in order to be able to handle generic equations of shape
+$\frac{\partial U}{\partial t} + \nabla \cdot F(U) = S$ in both 1D and 2D.
 
