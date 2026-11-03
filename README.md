@@ -43,13 +43,12 @@ the only real dependency.
 |---|---|
 | Spatial dimension | 1D (`physics_impl_1D.hpp`), 2D (`physics_impl_2D.hpp`) |
 | Gas models | Ideal, Van der Waals (`gas_models.hpp`) |
-| Riemann solvers | BANANA (list the ones implemented in `riemann_solver.hpp`) |
-| FR correction functions | BANANA (DG? c-VCJH family? the `tools/c-vcjh_*.py` scripts suggest so) |
-| Polynomial order | BANANA (compile-time or runtime? any maximum?) |
-| Shock handling | Limiter (`flux_limiter.hpp`): BANANA which one (WENO?), filter (`filter.hpp`): BANANA which type |
+| Riemann solvers | The ones implemented in `riemann_solver.hpp` |
+| Polynomial order | Runtime the maximum is set to p=9 in `GLL` class inside `reference_element.hpp`|
+| Shock handling | Filter in `filter.hpp`  |
 | Time integration | Explicit and implicit via PETSc TS |
 | Nonlinear solver | PETSc SNES, Newton-Krylov; Jacobian by complex step |
-| Boundary conditions | BANANA (list the ones in `boundary_conditions.hpp`) |
+| Boundary conditions | In `boundary_conditions.hpp` |
 | Geometry | Curved meshes, boundary-conforming (`geometry_models.hpp`) |
 | Parallelism | MPI |
 | Output format | PETSc binary, how to load and read them is visible handled in the tools/*.py|
