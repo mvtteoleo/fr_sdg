@@ -165,19 +165,9 @@ helpers to automate runs and post-process results.
 
 ## References
 
-The bibliography is in [`articles/master_bibliography.bib`](./articles/master_bibliography.bib),
-and the papers that the implementation follows are collected in `articles/`.
-Main sources:
+The bibliography is in [`articles/bibliography.bib`](./articles/bibliography.bib),
 
-- Flux Reconstruction and energy-stable correction functions (`A_New_Class_of_High-Order_Energy_Stable_Flux_Recon.pdf`, `deep_dive_FR_vs_DG_DeGrazia_2013.pdf`)
-- Implicit vs. explicit FR (`flux_reconstr_methdos_CUDA_JFNK_vs_explicit_ts_Jourdan_Wang_AIAA_2021.pdf`)
-- JFNK for hyperbolic flows (`JFNK_for_hyper_flows_AIAA_2023_Damn_et_al.pdf`)
-- Multigrid for DG (`FMG_for_DG_methods_reduce_stiffness_Bulgarini_Ghidoni_JFM_2025.pdf`)
-- Limiting and filtering (`weno_limiter.pdf`, `shock_limiter.pdf`, `stable_filtering_spectral_dg.pdf`)
-- Non-ideal gases (`non_ideal_gas_solver_with_AD_fluids_2023_Mantecca.pdf`)
-
-Note: the PDFs in `articles/` may be copyright-restricted. BANANA (remove them
-or keep only the `.bib` if the repository becomes public?)
+Due to copyright limitations only the bib file is reported.
 
 ## Limitations and roadmap
 
