@@ -1,0 +1,395 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+% Encoding: UTF-8
+@Misc{petsc-web-page,
+    author = {Satish Balay and Shrirang Abhyankar and Mark~F. Adams and Jed Brown and Peter Brune and Kris Buschelman and Lisandro Dalcin and Victor Eijkhout and William~D. Gropp and Dinesh Kaushik and Matthew~G. Knepley and Lois Curfman McInnes and Karl Rupp and Barry~F. Smith and Stefano Zampini and Hong Zhang},
+    title =  {{PETS}c {W}eb page},
+    url =    {http://www.mcs.anl.gov/petsc},
+    howpublished = {\url{http://www.mcs.anl.gov/petsc}},
+    year = {2015}
+}
+
+@TechReport{petsc-user-ref,
+    author = {Satish Balay and Shrirang Abhyankar and Mark~F. Adams and Jed Brown and Peter Brune and Kris Buschelman and Lisandro Dalcin and Victor Eijkhout and William~D. Gropp and Dinesh Kaushik and Matthew~G. Knepley and Lois Curfman McInnes and Karl Rupp and Barry~F. Smith and Stefano Zampini and Hong Zhang},
+    title  = {{PETS}c Users Manual},
+    institution = {Argonne National Laboratory},
+    year   = 2015,
+    number = {ANL-95/11 - Revision 3.6},
+    url    = {http://www.mcs.anl.gov/petsc}
+}
+
+@InProceedings{petsc-efficient,
+    Author = "Satish Balay and William D. Gropp and Lois Curfman McInnes and Barry F.  Smith",
+    Title = "Efficient Management of Parallelism in Object Oriented Numerical Software Libraries",
+    Booktitle = "Modern Software Tools in Scientific Computing",
+    Editor = "E. Arge and A. M. Bruaset and H. P. Langtangen",
+    Pages = "163--202",
+    Publisher = "Birkh{\"{a}}user Press",
+    Year = "1997"
+}
+@MISC{eigenweb,
+    author = {Ga\"{e}l Guennebaud and Beno\^{i}t Jacob and others},
+    title = {Eigen},
+    howpublished = {https://libeigen.gitlab.io},
+    year = {2010}
+}
+@article{harten1983high,
+  title={High resolution schemes for hyperbolic conservation laws},
+  author={Harten, Ami},
+  journal={Journal of computational physics},
+  volume={49},
+  number={3},
+  pages={357--393},
+  year={1983},
+  publisher={Elsevier}
+}
+
+@article{Cockburn1989,
+    author = {Cockburn, Bernardo and Shu, Chi-Wang},
+    title = {TVB Runge-Kutta Local Projection Discontinuous Galerkin Finite Element Method for Conservation Laws II: General Framework},
+    journal = {Mathematics of Computation},
+    volume = {52},
+    number = {186},
+    pages = {411--435},
+    year = {1989},
+    doi = {10.2307/2008474}
+}
+
+@article{Cockburn1998,
+    author = {Cockburn, Bernardo and Shu, Chi-Wang},
+    title = {The Local Discontinuous Galerkin Method for Time-Dependent Convection-Diffusion Systems},
+    journal = {SIAM Journal on Numerical Analysis},
+    volume = {35},
+    number = {6},
+    pages = {2440--2463},
+    year = {1998},
+    doi = {10.1137/s0036142997316712}
+}
+
+@misc{WebPlotDigitizer,
+  author = {Ankit Rohatgi},
+  title = {WebPlotDigitizer},
+  url = {https://automeris.io},
+  version = {5.2}
+}
+
+@article{RadialImpositionSDG,
+    author = {Schaal, Kevin and Bauer, Andreas and Chandrashekar, Praveen and Pakmor, Rüdiger and Klingenberg, Christian and Springel, Volker},
+    title = {Astrophysical hydrodynamics with a high-order discontinuous Galerkin scheme and adaptive mesh refinement},
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {453},
+    number = {4},
+    pages = {4278-4300},
+    year = {2015},
+    month = {11},
+    abstract = {Solving the Euler equations of ideal hydrodynamics as accurately and efficiently as possible is a key requirement in many astrophysical simulations. It is therefore important to continuously advance the numerical methods implemented in current astrophysical codes, especially also in light of evolving computer technology, which favours certain computational approaches over others. Here we introduce the new adaptive mesh refinement (AMR) code tenet, which employs a high-order discontinuous Galerkin (DG) scheme for hydrodynamics. The Euler equations in this method are solved in a weak formulation with a polynomial basis by means of explicit Runge–Kutta time integration and Gauss–Legendre quadrature. This approach offers significant advantages over commonly employed second-order finite-volume (FV) solvers. In particular, the higher order capability renders it computationally more efficient, in the sense that the same precision can be obtained at significantly less computational cost. Also, the DG scheme inherently conserves angular momentum in regions where no limiting takes place, and it typically produces much smaller numerical diffusion and advection errors than an FV approach. A further advantage lies in a more natural handling of AMR refinement boundaries, where a fall-back to first order can be avoided. Finally, DG requires no wide stencils at high order, and offers an improved data locality and a focus on local computations, which is favourable for current and upcoming highly parallel supercomputers. We describe the formulation and implementation details of our new code, and demonstrate its performance and accuracy with a set of two- and three-dimensional test problems. The results confirm that DG schemes have a high potential for astrophysical applications.},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/stv1859},
+    url = {https://doi.org/10.1093/mnras/stv1859},
+    eprint = {https://academic.oup.com/mnras/article-pdf/453/4/4278/8034398/stv1859.pdf},
+}
+
+
+    %% Extracted from: euler_radial.pdf
+@article{Crittenden_2018, title={The impact of the form of the Euler equations for radial flow in cylindrical and spherical coordinates on numerical conservation and accuracy}, volume={28}, ISSN={1432-2153}, url={http://dx.doi.org/10.1007/s00193-017-0784-y}, DOI={10.1007/s00193-017-0784-y}, number={4}, journal={Shock Waves}, publisher={Springer Science and Business Media LLC}, author={Crittenden, P. E. and Balachandar, S.}, year={2018}, month=Mar, pages={653–682} }
+
+%% Extracted from: A_New_Class_of_High-Order_Energy_Stable_Flux_Recon.pdf
+@article{Vincent_2010, title={A New Class of High-Order Energy Stable Flux Reconstruction Schemes}, volume={47}, ISSN={1573-7691}, url={http://dx.doi.org/10.1007/s10915-010-9420-z}, DOI={10.1007/s10915-010-9420-z}, number={1}, journal={Journal of Scientific Computing}, publisher={Springer Science and Business Media LLC}, author={Vincent, P. E. and Castonguay, P. and Jameson, A.}, year={2010}, month = {"September"}, pages={50–72} }
+
+
+%% Extracted from: weno_fifth_order_test_case.pdf
+@article{Zhou_2022, title={A study of multidimensional fifth-order WENO method for genuinely two-dimensional Riemann solver}, volume={463}, ISSN={0021-9991}, url={http://dx.doi.org/10.1016/j.jcp.2022.111249}, DOI={10.1016/j.jcp.2022.111249}, journal={Journal of Computational Physics}, publisher={Elsevier BV}, author={Zhou, Boxiao and Qu, Feng and Liu, Qingsong and Sun, Di and Bai, Junqiang}, year={2022}, month=Aug, pages={111249} }
+
+
+
+%% Extracted from: FMG_for_DG_methods_reduce_stiffness_Bulgarini_Ghidoni_JFM_2025.pdf
+@article{Bulgarini_2025, title={p-Multigrid high-order discontinuous Galerkin
+    solver for three-dimensional compressible turbulent flows}, volume={525},
+    ISSN={0021-9991}, url={http://dx.doi.org/10.1016/j.jcp.2025.113766},
+    DOI={10.1016/j.jcp.2025.113766}, journal={Journal of Computational
+    Physics}, publisher={Elsevier BV}, author={Bulgarini, D. and Ghidoni, A.
+    and Mantecca, E. and Noventa, G.}, year={2025}, month=Mar, pages={113766} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% deep_dive_FR_vs_DG_DeGrazia_2013.pdf 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{DeGrazia_2014,
+  title = {Connections between the discontinuous Galerkin method and high-order flux reconstruction schemes},
+  author = {De Grazia, D. and Mengaldo, G. and Moxey, D. and Vincent, P. E. and Sherwin, S. J.},
+  journal = {International Journal for Numerical Methods in Fluids},
+  volume = {75},
+  number = {12},
+  pages = {860--877},
+  year = {2014},
+  month = {Aug},
+  publisher = {Wiley},
+  doi = {10.1002/fld.3915},
+  url = {https://doi.org/10.1002/fld.3915}
+}
+
+%% Extracted from: JFNK_for_tumors_preconditioning_stats_Korkmaz_2025.pdf
+@article{Korkmaz_2025, title={An accurate and effective computational method to
+    solve brain tumor problems: a Jacobian-free Newton Krylov method with an
+    innovative preconditioning strategy II}, volume={45}, ISSN={1807-0302},
+    url={http://dx.doi.org/10.1007/s40314-025-03406-5},
+    DOI={10.1007/s40314-025-03406-5}, number={1}, journal={Computational and
+    Applied Mathematics}, publisher={Springer Science and Business Media LLC},
+    author={Korkmaz, Ece Hazal and Kadioglu, Samet Y. and Ozugurlu, Ersin},
+    year={2025}, month = {"September"} }
+
+%% Extracted from: flux_reconstr_methdos_CUDA_JFNK_vs_explicit_ts_Jourdan_Wang_AIAA_2021.pdf
+@inproceedings{Jourdan_de_Araujo_Jorge_Filho_2021, title={A Matrix-free GMRES
+    Algorithm on GPU Clusters for Implicit Large Eddy Simulation},
+    url={http://dx.doi.org/10.2514/6.2021-1837}, DOI={10.2514/6.2021-1837},
+    booktitle={AIAA Scitech 2021 Forum}, publisher={American Institute of
+    Aeronautics and Astronautics}, author={Jourdan de Araujo Jorge Filho,
+    Eduardo and Wang, Zhi J.}, year={2021}, month=Jan }
+
+%% Extracted from: non_ideal_gas_solver_with_AD_fluids_2023_Mantecca.pdf
+@article{Mantecca_2023, title={On the Development of an Implicit Discontinuous
+    Galerkin Solver for Turbulent Real Gas Flows}, volume={8},
+    ISSN={2311-5521}, url={http://dx.doi.org/10.3390/fluids8040117},
+    DOI={10.3390/fluids8040117}, number={4}, journal={Fluids}, publisher={MDPI
+    AG}, author={Mantecca, Edoardo and Colombo, Alessandro and Ghidoni, Antonio
+    and Noventa, Gianmaria and Pasquale, David and Rebay, Stefano},
+    year={2023}, month=Mar, pages={117} }
+
+%% Extracted from: JFNK_for_hyper_flows_AIAA_2023_Damn_et_al.pdf
+@inproceedings{Damm_2023, title={Application of a Jacobian-Free Newton-Krylov
+    Method to the Simulation of Hypersonic Flows},
+    url={http://dx.doi.org/10.2514/6.2023-2295}, DOI={10.2514/6.2023-2295},
+    booktitle={AIAA SCITECH 2023 Forum}, publisher={American Institute of
+    Aeronautics and Astronautics}, author={Damm, Kyle A. and Gibbons, Nicholas
+    N. and Jacobs, Peter A. and Gollan, Rowan}, year={2023}, month=Jan }
+
+    @article{Parter_1999,
+  author = {Parter, S. V.},
+  title = {On the {Legendre--Gauss--Lobatto} Points and Weights},
+  journal = {Journal of Scientific Computing},
+  volume = {14},
+  pages = {347--355},
+  year = {1999},
+  doi = {10.1023/A:1023204631825},
+  url = {https://doi.org/10.1023/A:1023204631825}
+}
+
+
+    @article{Berrut_2004,
+  title = {Barycentric {Lagrange} Interpolation},
+  author = {Berrut, Jean-Paul and Trefethen, Lloyd N.},
+  journal = {SIAM Review},
+  volume = {46},
+  number = {3},
+  pages = {501--517},
+  year = {2004},
+  publisher = {SIAM},
+  doi = {10.1137/S0036144502417715}
+}
+    @book{Trefethen_2000,
+  title = {Spectral Methods in {MATLAB}},
+  author = {Trefethen, Lloyd N.},
+  year = {2000},
+  publisher = {Society for Industrial and Applied Mathematics},
+  address = {Philadelphia, PA},
+  doi = {10.1137/1.9780898719598}
+}
+
+    @inproceedings{Huynh_2007,
+  title = {A flux reconstruction approach to high-order schemes including discontinuous Galerkin methods},
+  author = {Huynh, Hung T.},
+  booktitle = {18th AIAA Computational Fluid Dynamics Conference},
+  pages = {4079},
+  year = {2007},
+  doi = {10.2514/6.2007-4079},
+  url = {https://doi.org/10.2514/6.2007-4079}
+}
+
+  @article{Vincent_2011,
+  title = {A new class of high-order energy stable flux reconstruction schemes},
+  author = {Vincent, Peter E. and Castonguay, Patrice and Jameson, Antony and Huynh, H. T.},
+  journal = {Journal of Scientific Computing},
+  volume = {47},
+  number = {1},
+  pages = {50--72},
+  year = {2011},
+  publisher = {Springer},
+  doi = {10.1007/s10915-010-9420-z},
+  url = {https://doi.org/10.1007/s10915-010-9420-z}
+}
+
+  %% Extracted from: complex_step_deep_dive.pdf
+@article{Martins_2003, title={The complex-step derivative approximation},
+    volume={29}, ISSN={1557-7295},
+    url={http://dx.doi.org/10.1145/838250.838251}, DOI={10.1145/838250.838251},
+    number={3}, journal={ACM Transactions on Mathematical Software},
+    publisher={Association for Computing Machinery (ACM)}, author={Martins,
+    Joaquim R. R. A. and Sturdza, Peter and Alonso, Juan J.}, year={2003},
+    month = {"September"}, pages={245–262} }
+
+
+  %% Extracted from: weno_limiter.pdf
+@article{ZHONG2013397,
+title = {A simple weighted essentially nonoscillatory limiter for Runge–Kutta discontinuous Galerkin methods},
+journal = {Journal of Computational Physics},
+volume = {232},
+number = {1},
+pages = {397-415},
+year = {2013},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2012.08.028},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999112004743},
+author = {Xinghui Zhong and Chi-Wang Shu},
+keywords = {Discontinuous Galerkin method, WENO limiter},
+abstract = {In this paper, we investigate a simple limiter using weighted essentially non-oscillatory (WENO) methodology for the Runge–Kutta discontinuous Galerkin (RKDG) methods solving conservation laws, with the goal of obtaining a robust and high order limiting procedure to simultaneously achieve uniform high order accuracy and sharp, non-oscillatory shock transitions. The idea of this limiter is to reconstruct the entire polynomial, instead of reconstructing point values or moments in the classical WENO reconstructions. That is, the reconstruction polynomial on the target cell is a convex combination of polynomials on this cell and its neighboring cells and the nonlinear weights of the convex combination follow the classical WENO procedure. The main advantage of this limiter is its simplicity in implementation, especially for multi-dimensional meshes. Numerical results in one and two dimensions are provided to illustrate the behavior of this procedure.}
+}
+    %% Extracted from: shock_limiter.pdf 
+@article{ZHAO2020104439,
+    title = {On shock sensors for hybrid compact/WENO schemes},
+journal = {Computers \& Fluids},
+volume = {199},
+pages = {104439},
+year = {2020},
+issn = {0045-7930},
+doi = {https://doi.org/10.1016/j.compfluid.2020.104439},
+url = {https://www.sciencedirect.com/science/article/pii/S0045793020300153},
+author = {Guo-Yan Zhao and Ming-Bo Sun and Sergio Pirozzoli},
+keywords = {Finite difference methods, Shock capturing, Hybrid schemes, Shock sensors},
+abstract = {We present a systematic framework for the evaluation of shock
+    sensors in high-resolution hybrid compact/WENO algorithms, with the goals
+    of testing robustness and establishing accuracy in wavenumber space, with
+    the intent to go beyond mere case-by-case comparison of solvers/sensors.
+    Several sensors are considered, including classical ones, sensors based on
+    multi-resolution wavelet analysis, and WENO-based shock sensors. The
+    crucial issue of identification of suitable thresholds for the various
+    shock sensors is tackled through a series of static tests and numerical
+    simulations. Whereas any shock sensor with suitably low threshold is found
+    to be effective in capturing shocks, not all of them perform equally well
+    for waves. Performance degradation in numerical simulation of wave-like
+    phenomena is here characterized by introducing an effective band-width for
+    each sensor, which is found to be quite narrow for classical sensors, and
+    much wider for WENO-based shock sensors. Based on this analysis, we also
+    identify a new shock sensor which can be easily implemented in existing
+    WENO-based codes. The new sensor doesn’t suffer from contamination from the
+    WENO numerical error even for waves resolved with as few as three
+    points-per-wavelength. This property translates into improved performance
+    in wavenumber space, and greater resolving power in flow cases involving
+    shocks and compressible turbulence, as demonstrated through a series of
+    numerical tests. We emphasize that this sensor can be applied more broadly
+    to any algorithm which contains similar smoothness indicators as classical
+    WENO.}
+}
+
+
+    @article{Nordstrom_2020,
+  author  = {Nordstr{\"{o}}m, Jan and Winters, Andrew R.},
+  title   = {Stable filtering procedures for nodal discontinuous {Galerkin} methods},
+  journal = {arXiv preprint},
+  year    = {2020},
+  eprint  = {2007.06948},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.NA},
+  doi     = {10.48550/arXiv.2007.06948}
+}
+    @article{Kronbichler2016,
+  author  = {Kronbichler, Martin and Wall, Wolfgang A.},
+  title   = {A performance comparison of continuous and discontinuous Galerkin
+  methods with fast multigrid solvers},
+  journal = {SIAM J. Sci. Comput. 40(5), A3423-A3448, 2018},
+  year    = {2016},
+  doi     = {10.1137/16M110455X}
+}
+    @techreport{Burman2007,
+  author       = {Burman, Erik and Quarteroni, Alfio and Stamm, Benjamin},
+  title        = {Stabilization Strategies for High Order Methods for Transport Dominated Problems},
+  institution = {MOX, Dipartimento di Matematica "F. Brioschi", Politecnico di Milano},
+  year         = {2007},
+  number       = {20/2007},
+  month        = {October}
+}
+
+
+@phdthesis{nix1,
+  title  = {The Purely Functional Software Deployment Model},
+  author = {Eelco Dolstra},
+  year   = {2006},
+  school = {Utrecht University},
+  isbn   = {90-393-4130-3},
+  url    = {https://dspace.library.uu.nl/handle/1874/7540}
+}
+ @inproceedings{nix2,
+  title     = {Nix: A Safe and Policy-Free System for Software Deployment},
+  author    = {Eelco Dolstra and Merijn de Jonge and Eelco Visser},
+  year      = {2004},
+  pages     = {79--92},
+  booktitle = {Proceedings of the 18th Conference on Systems Administration (LISA 2004)},
+  publisher = {USENIX},
+  url       = {http://www.usenix.org/publications/library/proceedings/lisa04/tech/dolstra.html}
+}
+
+@misc{nix3,
+      title={Nix: A Solution With Problems}, 
+      author={Matias Zwinger},
+      year={2026},
+      eprint={2604.11398},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2604.11398}, 
+}
+
+    @article{KnollKeyes2004,
+  author  = {Knoll, D. A. and Keyes, D. E.},
+  title   = {Jacobian-free {N}ewton-{K}rylov methods: a survey of approaches and applications},
+  journal = {Journal of Computational Physics},
+  volume  = {193}, number = {2}, pages = {357--397}, year = {2004}
+}
+
+@article{VandenhoeckLani2019,
+  author  = {Vandenhoeck, Ray and Lani, Andrea},
+  title   = {Implicit high-order flux reconstruction solver for high-speed compressible flows},
+  journal = {Computer Physics Communications},
+  volume  = {242}, pages = {1--24}, year = {2019}
+}
+
+@article{Yan2020Nektar,
+  author  = {Yan, Zhen-Guo and Pan, Yu and Castiglioni, Giacomo and Hillewaert, Koen
+             and Peir{\'o}, Joaquim and Moxey, David and Sherwin, Spencer J.},
+  title   = {Nektar++: Design and implementation of an implicit, spectral/hp element,
+             compressible flow solver using a {J}acobian-free {N}ewton {K}rylov approach},
+  journal = {Computers \& Mathematics with Applications},
+  volume  = {81}, pages = {351--372}, year = {2020}
+}
+
+@inproceedings{PerssonPeraire2006,
+  author    = {Persson, Per-Olof and Peraire, Jaime},
+  title     = {Sub-cell shock capturing for discontinuous {G}alerkin methods},
+  booktitle = {44th AIAA Aerospace Sciences Meeting and Exhibit},
+  year      = {2006}, note = {AIAA Paper 2006-112}
+}
+
+@techreport{ReedHill1973,
+  author       = {Reed, W. H. and Hill, T. R.},
+  title        = {Triangular mesh methods for the neutron transport equation},
+  institution = {Los Alamos Scientific Laboratory},
+  year         = {1973}
+}
+
+@misc{IsoVTXNASA,
+  author = {{National Aeronautics and Space Administration, Seth C. Spiegel, H. T. Huynh, and James R. DeBonis}},
+  title = {A Survey of the Isentropic Euler Vortex Problem using
+High-Order Methods},
+  year = {2015},
+  howpublished = {\url{https://ntrs.nasa.gov/api/citations/20150018403/downloads/20150018403.pdf}},
+  note = {Accessed: 2026-07-16}
+}
+
+    @book{toro2009riemann,
+  title     = {Riemann Solvers and Numerical Methods for Fluid Dynamics: A Practical Introduction},
+  author    = {Toro, Eleuterio F.},
+  year      = {2009},
+  edition   = {3rd},
+  publisher = {Springer Science \& Business Media},
+  address   = {Berlin, Heidelberg},
+  doi       = {10.1007/b79761},
+  isbn      = {978-3-540-25205-4}
+}
+
